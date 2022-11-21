@@ -1,0 +1,110 @@
+nav ul {
+  display: flex;
+  padding: 20px 0px 10px 0px;
+  align-items: center;
+  justify-content:center;
+}
+.homepage nav ul {
+  justify-content: center;
+}
+
+body {
+  background-color: #FAEFE4;  
+  margin: 0px;
+  text-align: center;
+  }
+
+  h1 {
+    font-family: 'archivo';
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 40px;
+  }
+
+  p {
+    font-family: 'archivo';
+    padding-left: 35px;
+    padding-right: 35px
+  }
+
+  a {
+    font-family: 'archivo';
+    margin: 0px;
+    font-size: 30px;
+  }
+
+  hr.solid {
+    border-top: 2px solid black;
+  }
+
+  footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+.home-shop-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-buttons {
+  align-items: center;
+}
+
+.shop-sections {
+  display: flex;
+  justify-content: space-around;
+}
+.shop-sections div {
+  flex-wrap: wrap;
+}
+
+.shop-icons-gallery {
+  width:80%;
+  margin:auto;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr)); 
+  grid-gap: 40px;
+}
+.hidden {
+  display:none;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 20px; 
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #30317F;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6062F1;
+}
+
+.container {
+  margin: 55px;;
+  border-radius: 10px;
+  background-color: #FAEFE4;
+  padding: 35px;
+  text-align: left;
+}
+
+.find-us-sec {
+  padding: 60px;
+  display: flex;
+  font-size: 20px;
+  text-align: left;
+  justify-content: space-around;
+}
