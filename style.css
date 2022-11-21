@@ -2,46 +2,56 @@ nav ul {
   display: flex;
   padding: 20px 0px 10px 0px;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
 .homepage nav ul {
   justify-content: center;
 }
-
+.hero {
+  width: 100%;
+}
+.social {
+  width: 60px;
+}
+footer {
+}
 body {
-  background-color: #FAEFE4;  
+  background-color: #faefe4;
   margin: 0px;
   text-align: center;
-  }
+}
 
-  h1 {
-    font-family: 'archivo';
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 40px;
-  }
+h1 {
+  font-family: 'archivo';
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 40px;
+}
 
-  p {
-    font-family: 'archivo';
-    padding-left: 35px;
-    padding-right: 35px
-  }
+p {
+  font-family: 'archivo';
+  padding-left: 35px;
+  padding-right: 35px;
+}
 
-  a {
-    font-family: 'archivo';
-    margin: 0px;
-    font-size: 30px;
-  }
+a {
+  font-family: 'archivo';
+  margin: 0px;
+  font-size: 30px;
+}
 
-  hr.solid {
-    border-top: 2px solid black;
-  }
+hr.solid {
+  border-top: 2px solid black;
+}
 
-  footer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .home-shop-flex {
   display: flex;
   justify-content: space-around;
@@ -59,29 +69,33 @@ body {
 }
 
 .shop-icons-gallery {
-  width:80%;
-  margin:auto;
-  display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px,1fr)); 
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 40px;
 }
 .hidden {
-  display:none;
+  display: none;
 }
-
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 20px; 
+.card img {
+  width: 100%;
+}
+input[type='text'],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 20px;
   resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #30317F;
+input[type='submit'] {
+  background-color: #30317f;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -89,14 +103,14 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #6062F1;
+input[type='submit']:hover {
+  background-color: #6062f1;
 }
 
 .container {
-  margin: 55px;;
+  margin: 55px;
   border-radius: 10px;
-  background-color: #FAEFE4;
+  background-color: #faefe4;
   padding: 35px;
   text-align: left;
 }
