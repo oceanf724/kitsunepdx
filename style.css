@@ -146,6 +146,13 @@ footer {
     margin-right: 550px;
 }
 
+.next-shop-page li:hover {
+  background-color: black;
+  border-color: black;
+  color:#faefe4;
+  transition: 0.2s ease-in-out;
+}
+
 .find-us-sec {
   padding: 60px;
   display: flex;
@@ -155,31 +162,68 @@ footer {
   justify-content: space-around;
 }
 
+.bag-n-filter {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.bag-n-filter img {
+ width: 5%;
+}
+
 .filter-btn {
   flex: 15px;
   text-decoration: none;
   text-align: center;
   justify-content:right;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 100px;
   font-family: 'archivo';
   background-color: #faefe4;
   color: black;
   border: 3px solid black;
   border-radius: 10px;
-  padding: 15px;
-  margin-left: 650px;
-  margin-right: 550px;
+  padding: 8px 30px;
+  margin: 0 54px;
 }
 
-.shop-sections {
+.shop-categories {
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  justify-content: space-around;
+  list-style: none;
+  justify-content: space-between;
+  width: 100%;
 }
+
+.shop-sections li {
+  flex: 1;
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 100px;
+  font-family: 'archivo';
+  background-color: #faefe4;
+  color: black;
+  border: 3px solid black;
+  border-radius: 60px;
+  padding: 8px 30px;
+  margin: 0 54px;
+
+  justify-content: space-between;
+  text-align: center;
+}
+
+.shop-sections li:hover {
+  background-color: black;
+  border-color: black;
+  color:#faefe4;
+  transition: 0.2s ease-in-out;
+}
+
 .shop-sections div {
-  flex-wrap: wrap;
+  flex-wrap: 10px;
 }
 
 .shop-icons-gallery {
