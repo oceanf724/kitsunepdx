@@ -16,6 +16,7 @@ body {
   background-color: #faefe4;
   margin: 0px;
   text-align: center;
+  scrollbar-width: 0;
 }
 
 h1 {
@@ -83,7 +84,14 @@ footer {
   transition: 0.2s ease-in-out;
 }
 
-.slide-content {
+.slider {
+  width: 100vw;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.slide-content img {
   width: 100%;
 }
 
