@@ -6,7 +6,6 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="meyer-reset.css" />
       <link rel="stylesheet" href="style.css" />
-      <script src="script.js"></script>
       <title>Kitsunepdx</title>
   </head>
   <body>
@@ -21,7 +20,9 @@
       <hr class="solid">
       <h1>SHOP</h1>
       <img src="images/figuresale.png" alt="figuresale">
-        <img src="images/filterbtn.png" alt="filterbtn">
+      <ul class="filter-btn">
+        <li>FILTER</li>
+    </ul>
       <div class="shop-sections">
         <img class="shophover" src="images/shop-all-hover.png" alt="shopallhover"/>
         <img class="shophover" src="images/shop-accessories-unhover.png" alt="shopaccessorieshover"/>
@@ -31,29 +32,98 @@
       </div>
       <hr class="solid">
       <section class="shop-icons-gallery">
-        <div class="shopitems card">
+        <div class="shopicons card">
           <img src="images/shopimage1.jpg" img class="show">
-          <img class="hidden" img src="http://placekitten.com/500/501">
+          <img class="hidden" img src="images/shopimage1.jpg">
           <p>Black Sesame Meowchi 7" $15</p>
         </div>
-        <img class="shopicons" src="images/shopimage2.jpg" alt="xenosaga3"/>
-        <img class="shopicons" src="images/shopimage3.jpg" alt="sadgirlsdadhat"/>
-        <img class="shopicons" src="images/shopimage4.jpg" alt="moneymaker"/>
-        <img class="shopicons" src="images/shopimage5.jpg" alt="goufcustom1144"/>
-        <img class="shopicons" src="images/shopimage6.jpg" alt="bluekitty"/>
-        <img class="shopicons" src="images/shopimage7.jpg" alt="aotwallscroll"/>
-        <img class="shopicons" src="images/shopimage8.jpg" alt="saberneroclaudius"/>
-        <img class="shopicons" src="images/shopimage9.jpg" alt="sadboyscrewneck"/>
-        <img class="shopicons" src="images/shopimage10.jpg" alt="msm-07s"/>
-        <img class="shopicons" src="images/shopimage11.jpg" alt="strawberrykitty"/>
-        <img class="shopicons" src="images/shopimage12.jpg" alt="hanadecks"/>
-        <img class="shopicons" src="images/shopimage13.jpg" alt="linecreator"/>
-        <img class="shopicons" src="images/shopimage14.jpg" alt="lucyheartfiliaaquarius"/>
-        <img class="shopicons" src="images/shopimage15.jpg" alt="leatherkeytags"/>  
-        <img class="shopicons" src="images/shopimage16.jpg" alt="nendoroid"/>  
+        <div class="shopicons card">
+          <img src="images/shopimage2.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage2-hv.jpg">
+          <p>Xenosaga 3- Kos-Mos Swimsuit Ver.$95.99</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage3.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage3-hv.jpg">
+          <p>Sad Girls Dad Hat $26</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage4.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage4-hv.jpg">
+          <p>Money Maker L/s- AnimeBae $52</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage5.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage5-hv.jpg">
+          <p>Gouf Custom 1/144. HGUC $34.99</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage6.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage6-hv.jpg">
+          <p>Blue Moon Meowchi $15</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage7.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage7.jpg">
+          <p>(SUN BLEACHED) AOT- Wall Scroll $18.39</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage8.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage8-hv.jpg">
+          <p>Popup Parade- Saber/ Nero Claudius $52.99</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage9.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage9.jpg">
+          <p>Sad Boys Crewneck $60</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage10.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage10-hv.jpg">
+          <p>MSM-07S Z'Gok Rg $44.99</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage11.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage11-hv.jpg">
+          <p>Strawberry Meowchi Clip-On $9.99</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage12.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage12.jpg">
+          <p>Hanadecks Grip n Stick packs $3</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage13.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage13-hv.jpg">
+          <p>Line Creator $6.99</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage14.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage14.jpg">
+          <p>Popup Parade- Lucy Heartfilia Aquarius ver. $42.49</p>
+        </div>
+        <div class="shopicons card">
+          <img src="images/shopimage15.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage15-hv.jpg">
+          <p>My Hero Academia- Leather Key Tags $19.99</p>
+        </div> 
+        <div class="shopicons card">
+          <img src="images/shopimage16.jpg" img class="show">
+          <img class="hidden" img src="images/shopimage16-hv.jpg">
+          <p>HNendoroid- Hanzo $46.74</p>
+        </div>
       </div>
+      <div class="next-btn">
+        <ul class="next-shop-page">
+            <li>Next Page ></li>
+        </ul>
+    </div>
       <hr class="solid">
-      <footer>©2022 by KitsunePDX</footer>
+      <footer>
+        <p>©2022 by KitsunePDX</p>
+        <img class="social" src="images/instagram-icon.png" alt="instagram">
+        <img class="social" src="images/tiktok-icon.png" alt="tiktok">
+      </footer>
       <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
       <script>
         $('.card').hover(function() {

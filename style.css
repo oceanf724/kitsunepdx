@@ -7,11 +7,9 @@ nav ul {
 .homepage nav ul {
   justify-content: center;
 }
-.hero {
-  width: 100%;
-}
+
 .social {
-  width: 60px;
+  width: 35px;
 }
 
 body {
@@ -23,14 +21,18 @@ body {
 h1 {
   font-family: 'archivo';
   padding-top: 25px;
-  padding-bottom: 25px;
-  font-size: 40px;
+  padding-bottom: 20px;
+  font-size: 45px;
 }
 
 p {
   font-family: 'archivo';
-  padding-left: 35px;
-  padding-right: 35px;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 35px;
+  text-align: center;
 }
 
 a {
@@ -46,26 +48,126 @@ hr.solid {
 footer {
   margin-top: 20px;
   margin-bottom: 20px;
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.slideshow {
+.nav-buttons {
+  display:flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-buttons li {
+  display:flex;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 100px;
+  font-family: 'archivo';
+  background-color: #faefe4;
+  color: black;
+  border: 3px solid black;
+  border-radius: 60px;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.nav-buttons li:hover {
+  background-color: black;
+  border-color: black;
+  color:#faefe4;
+  transition: 0.2s ease-in-out;
+}
+
+.slide-content {
   width: 100%;
 }
 
 .home-shop-flex {
   display: flex;
+  font-weight: 50px;
+  padding-top: 20px;
+  line-height: 30px;
   justify-content: space-around;
 }
-.nav-buttons {
-  align-items: center;
+
+.to-shop {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+  width: 100%;
+}
+
+.to-shop li {
+    flex: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100px;
+    font-family: 'archivo';
+    background-color: #faefe4;
+    color: black;
+    border: 3px solid black;
+    border-radius: 60px;
+    padding: 20px;
+    margin-left: 550px;
+    margin-right: 550px;
+}  
+
+.to-shop li:hover {
+  background-color: black;
+  border-color: black;
+  color:#faefe4;
+  transition: 0.2s ease-in-out;
+}
+.next-shop-page li {
+    flex: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100px;
+    font-family: 'archivo';
+    background-color: #faefe4;
+    color: black;
+    border: 3px solid black;
+    border-radius: 60px;
+    padding: 20px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.find-us-sec {
+  padding: 60px;
+  display: flex;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: left;
+  justify-content: space-around;
+}
+
+.filter-btn {
+  flex: 15px;
+  text-decoration: none;
+  text-align: center;
+  justify-content:right;
+  font-size: 40px;
+  font-weight: 100px;
+  font-family: 'archivo';
+  background-color: #faefe4;
+  color: black;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin-left: 650px;
+  margin-right: 550px;
 }
 
 .shop-sections {
   display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
   justify-content: space-around;
 }
 .shop-sections div {
@@ -74,6 +176,8 @@ footer {
 
 .shop-icons-gallery {
   width: 80%;
+  padding-top: 20px;
+  line-height: 24px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -121,13 +225,14 @@ input[type='submit'] {
   color: black;
   padding: 12px 20px;
   border: 2px solid black;
-  border-radius: 8px;
+  border-radius: 60px;
   cursor: pointer;
 }
 
 input[type='submit']:hover {
   background-color: black;
   color: #faefe4;
+  transition: 0.2s ease-in-out;
 }
 
 .container {
@@ -136,12 +241,4 @@ input[type='submit']:hover {
   background-color: #faefe4;
   padding: 35px;
   text-align: left;
-}
-
-.find-us-sec {
-  padding: 60px;
-  display: flex;
-  font-size: 20px;
-  text-align: left;
-  justify-content: space-around;
 }
