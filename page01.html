@@ -133,6 +133,25 @@
       $('.card').hover(function () {
         $(this).find('img').toggleClass('hidden')
       })
+      $('.all').click(function() {
+        $('.all').show('display', 'block')
+      })
+      $('.accessories').click(function() {
+        $('.accessories').show('display', 'block')
+        $('article').not('.accessories').show('display', 'none')
+      })
+      $('.apparel').click(function() {
+        $('.apparel').show('display', 'block')
+        $('article').not('.apparel').show('display', 'none')
+      })
+      $('.figures').click(function() {
+        $('.figures').show('display', 'block')
+        $('article').not('.figures').show('display', 'none')
+      })
+      $('.plushies').click(function() {
+        $('.plushies').show('display', 'block')
+        $('article').not('.plushies').show('display', 'none')
+      })
     </script>
   </body>
 </html>
