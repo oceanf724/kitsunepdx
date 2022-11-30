@@ -1,13 +1,15 @@
 @font-face {
   font-family: 'archivo';
-  src: url(fonts/Archivo-VariableFont_wdth\wght.ttf);
+  src: url(fonts/Archivo-VariableFont_wdth.ttf);
 }
 
 @font-face {
   font-family: 'archivo-bold';
   src: url(fonts/Archivo-Bold.ttf);
 }
-
+* {
+  box-sizing: border-box;
+}
 nav ul {
   display: flex;
   padding: 20px 0px 10px 0px;
@@ -114,10 +116,14 @@ footer p {
 
 .home-shop-flex {
   display: flex;
+  flex-wrap: wrap;
   font-weight: 50px;
   padding-top: 20px;
   line-height: 30px;
   justify-content: space-around;
+}
+.home-shop-flex img {
+  width: 100%;
 }
 
 .figuresale {
@@ -386,6 +392,30 @@ input[type='submit']:hover {
   .figuresale {
     width: 90%;
   }
+  .home-shop-flex {
+    width: 90%;
+    margin: auto;
+  }
+  .home-shop-flex .one {
+    flex: 40%;
+  }
+  .home-shop-flex .one:nth-child(odd) {
+    margin-right: 10px;
+  }
+  .logo {
+    width: 80%;
+    margin: auto;
+  }
+  .intro h1 {
+    font-size: 36px;
+  }
+  .intro p {
+    text-align: left;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
   .shop-sections li {
     flex: 1;
     list-style: none;
@@ -396,5 +426,19 @@ input[type='submit']:hover {
     justify-content: flex-start;
     text-align: left;
     border: none;
+  }
+  .find-us-sec {
+    flex-direction: column;
+  }
+  .find-us-sec .left {
+    margin-bottom: 20px;
+  }
+  .find-us-sec img {
+    width: 100%;
+  }
+  .shop-sections {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
   }
 }
