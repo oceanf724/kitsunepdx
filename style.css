@@ -403,6 +403,23 @@ input[type='submit']:hover {
   .home-shop-flex .one:nth-child(odd) {
     margin-right: 10px;
   }
+  .to-shop {
+    flex: 5px;
+    justify-content: center;
+    max-width: 20%;
+    padding-bottom: 25px;
+  }
+  .to-shop li {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100px;
+    font-family: 'archivo';
+    background-color: #faefe4;
+    color: black;
+    border: 3px solid black;
+    border-radius: 60px;
+    padding: 20px;
+  }
   .logo {
     width: 80%;
     margin: auto;
@@ -411,27 +428,33 @@ input[type='submit']:hover {
     font-size: 36px;
   }
   .intro p {
-    text-align: left;
+    text-align: center;
     padding: 0;
     width: 90%;
     margin: auto;
     padding-bottom: 40px;
   }
+  .view-shop-btn {
+    align-items: center;
+    margin: auto;
+    padding: auto;
+  }
   .shop-sections li {
-    flex: 1;
+    flex: 1px;
     list-style: none;
     text-decoration: none;
     font-size: 25px;
     font-weight: 100px;
     font-family: 'archivo';
     justify-content: flex-start;
-    text-align: left;
+    text-align: center;
     border: none;
   }
   .find-us-sec {
     flex-direction: column;
   }
   .find-us-sec .left {
+    text-align:center;
     margin-bottom: 20px;
   }
   .find-us-sec img {
